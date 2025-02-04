@@ -24,16 +24,24 @@ body {
     gap: 2rem;
 }
 
-.logo {
+.top-left .logo  {
     font-size: 1.5rem;
     font-weight: bold;
+    margin-left: 50px;;
+    color: black;
+    
 }
+
 
 .interviewer-link {
     color: #666;
     text-decoration: none;
+     padding:10px; 
 }
-
+.top-right{
+    gap:10px;
+    padding-right:10px;
+}
 .nav-right {
     display: flex;
     align-items: center;
@@ -242,7 +250,7 @@ body {
 
 /* Video Section */
 .video-container {
-    max-width: 1200px;
+  
     margin: 0 auto;
     background: white;
     padding: 30px;
